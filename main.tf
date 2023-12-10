@@ -1,5 +1,5 @@
 module "s3-backend" {
-  source = "git@github.com:olabola1108/Semantic-Versioning.git//s3-module?ref=v1.2.0"
+  source = "git@github.com:olabola1108/Semantic-Versioning.git//s3-module?ref=v1.2.1"
 }
 
  terraform {
@@ -16,9 +16,9 @@ module "s3-backend" {
     }
   }
  }
- 
+
 provider "aws" {
-  region = us-east-2
+  region = "us-east-2"
 }
  
 
